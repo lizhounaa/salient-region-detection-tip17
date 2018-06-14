@@ -12,7 +12,7 @@ Main steps of the proposed salient region detection algorithm on an example imag
 The 2-layer sparse graph model. (a) Input image. (b) Ground truth. (c) Edge connection between nodes. A node (illustrated by a red dot) connects to both its adjacent nodes (green dot and connection) and the most similar node (yellow dot and connection) sharing common boundaries with its adjacent nodes. Additionally, each pair of boundary nodes are connected to each other (orange dot and connection).
 
 ## Results
-![graph](./Fig/Fig9.jpg)
+![result](./Fig/Fig9.jpg)
 
 Our visual image saliency maps compared with recently developed, state-of-the-art approaches on the ASD, DUT-OMRON, ECSSD, MSRA5K, and
 MSRA10K datasets.
