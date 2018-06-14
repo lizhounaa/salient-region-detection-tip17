@@ -2,13 +2,25 @@
 
 This repository is an official Matlab implementation of the paper **"Salient Region Detection using Diffusion Process on a 2-Layer Sparse Graph"** 
 
+## Summary
+![overview](./Fig/Fig3.png)
 
+
+![graph](./Fig/Fig4.png)
+The 2-layer sparse graph model. (a) Input image. (b) Ground truth. (c) Edge connection between nodes. A node (illustrated by a red dot) connects to both its adjacent nodes (green dot and connection) and the most similar node (yellow dot and connection) sharing common boundaries with its adjacent nodes. Additionally, each pair of boundary nodes are connected to each other (orange dot and connection).
+
+## Results
+![graph](./Fig/Fig9.png)
+
+Our visual image saliency maps compared with recently developed, state-of-the-art approaches on the ASD, DUT-OMRON, ECSSD, MSRA5K, and
+MSRA10K datasets.
+
+
+## Citation
 If you find our work useful in your research or publication, please cite our work:
 
 [1] Zhou L, Yang Z, Zhou Z, et al. Salient Region Detection using Diffusion Process on a 2-Layer Sparse Graph[J]. IEEE Transactions on Image Processing, 2017, 26(12): 5882 - 5894.
 
-
-## Citation
 BibTeX
 ```
 @article{Li2017Salient,
